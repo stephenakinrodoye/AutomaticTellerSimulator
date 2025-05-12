@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Core", "ATS.Core\ATS.Core.csproj", "{CC4E86C8-6B7E-4B10-BE01-A12D6C354D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS.Client", "ATS.Client\ATS.Client.csproj", "{53C5F46F-B75C-480F-8556-B26396D66D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Accounts.txt = ..\..\..\..\Downloads\Accounts.txt
+		..\..\..\..\Downloads\ATM.sql = ..\..\..\..\Downloads\ATM.sql
+		..\..\..\..\Downloads\Customers.txt = ..\..\..\..\Downloads\Customers.txt
+		DailyBalances.txt = DailyBalances.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4E86C8-6B7E-4B10-BE01-A12D6C354D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4E86C8-6B7E-4B10-BE01-A12D6C354D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4E86C8-6B7E-4B10-BE01-A12D6C354D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4E86C8-6B7E-4B10-BE01-A12D6C354D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C5F46F-B75C-480F-8556-B26396D66D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C5F46F-B75C-480F-8556-B26396D66D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C5F46F-B75C-480F-8556-B26396D66D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C5F46F-B75C-480F-8556-B26396D66D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FECA7CA2-152B-4FD3-835B-A09148525F85}
+	EndGlobalSection
+EndGlobal
